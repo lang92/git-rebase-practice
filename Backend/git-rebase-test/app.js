@@ -44,8 +44,7 @@ app.post("/users/signup", async (req, res) => {
       VALUES (
         ?,
         ?,
-        ?,
-        ?
+        ?                          // 4개였던 '?'를 3개로 수정
       )
     `,
     [username, email, password]
