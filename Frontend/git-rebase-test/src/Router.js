@@ -8,8 +8,8 @@ export default function Router() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='/login' element={<App />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/main' element={<Main />} />
       </Routes>
     </BrowserRouter>
   );
